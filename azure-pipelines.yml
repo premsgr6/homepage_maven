@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Rhel7'
+  vmImage: 'ubuntu'
 
 steps:
 - task: Maven@3
